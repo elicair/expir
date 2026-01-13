@@ -40,11 +40,11 @@
     <nav>
         <ul>
             <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="page1.html">Page 1</a></li>
-            <li><a href="page2.html">Page 2</a></li>
-            <li><a href="page3.html">Page 3</a></li>
-            <li><a href="page4.html">Page 4</a></li>
-            <li><a href="page5.html">Page 5</a></li>
+            <li><a href="pg 1">Page 1</a></li>
+            <li><a href="pg 2">Page 2</a></li>
+            <li><a href="pg 3">Page 3</a></li>
+            <li><a href="pg 4">Page 4</a></li>
+            <li><a href="pg 5">Page 5</a></li>
         </ul>
     </nav>
 
