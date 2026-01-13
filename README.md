@@ -38,7 +38,7 @@ background-color: #04AA6D;
 <nav>
 <ul>
 <li><a class="active" href="index.html">Home</a></li>
-<li><a href="pg1.html">Page 1.html</a></li>
+<li><a href="https://elicair.github.io/kys/">Page 1.html</a></li>
 <li><a href="pg2.md">Page 2.html</a></li>
 <li><a href="pg3.md">Page 3.html</a></li>
 <li><a href="pg4.md">Page 4.html</a></li>
