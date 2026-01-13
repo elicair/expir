@@ -3,57 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 1</title>
+    <title>Image and Table Page</title>
     <style>
-
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-        nav li {
-            float: left;
-        }
-        nav li a {
-            display: block;
-            color: white;
+        body {
+            font-family: sans-serif;
             text-align: center;
-            padding: 14px 16px;
+            margin: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #333;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 50%;
+            margin: 0 auto 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .home-button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
             text-decoration: none;
-        }
-        nav li a:hover {
-            background-color: #111;
-        }
-        .active {
-            background-color: #04AA6D;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Welcome to Page 1</h1>
-    </header>
+    <h1>Welcome to the Sample Page</h1>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="page1.html">Page 1</a></li>
-            <li><a href="page2.html">Page 2</a></li>
-            <li><a href="page3.html">Page 3</a></li>
-            <li><a href="page4.html">Page 4</a></li>
-            <li><a href="page5.html">Page 5</a></li>
-        </ul>
-    </nav>
+    <!-- Image Section -->
+    <h2>Our Image</h2>
+    <!-- Replace 'path/to/your/image.jpg' with the actual path to your image file -->
+    <img src="path/to/your/image.jpg" alt="A sample image">
 
-    <main>
-        <p>This is the content for Page 1. Each page uses the same navigation structure.</p>
-    </main>
+    <!-- Table Section -->
+    <h2>Data Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 3, Cell 1</td>
+                <td>Row 3, Cell 2</td>
+                <td>Row 3, Cell 3</td>
+            </tr>
+        </tbody>
+    </table>
 
-    <footer>
-        <p>&copy; 2025 My Website</p>
-    </footer>
+    <!-- Redirect Button Section -->
+    <!-- The anchor tag acts as a link. The class is for styling as a button. -->
+    <a href="README.md" class="home-button">Go to Home Page</a>
 
 </body>
 </html>
