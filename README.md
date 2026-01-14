@@ -1,4 +1,4 @@
-# expir
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -50,10 +50,5 @@ background-color: #04AA6D;
 <p>welcome to our custom leather shop. we have a detailed discripton of our products acrost upr web pages.</p>
 </main>
 
-<footer>
-<p>&copy; 2025 My Website</p>
-</footer>
-
 </body>
 </html>
-2. Additional Pages (page1.html to page5
