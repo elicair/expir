@@ -5,21 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home Page</title>
 <style>
-     body {  
-        background-image: url('https://www.publicdomainpictures.net/pictures/250000/nahled/rustic-brown-leather-background.jpg');
-            background-size: cover; 
-            background-attachment: fixed;
-            background-position: center;
-            background-color: #4a4a4a;
-            height: 100vh;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-family: sans-serif;
-            text-shadow: 2px 2px 4px #000000; 
-        }
 nav ul {
 list-style-type: none;
 margin: 0;
@@ -60,6 +45,21 @@ background-color: #111;
 </nav>
 
 <main>
+<style>    body {  
+        background-image: url('https://www.publicdomainpictures.net/pictures/250000/nahled/rustic-brown-leather-background.jpg');
+            background-size: cover; 
+            background-attachment: fixed;
+            background-position: center;
+            background-color: #4a4a4a;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: sans-serif;
+            text-shadow: 2px 2px 4px #000000; 
+        }</style>
 <p>welcome to our custom leather shop. we have a detailed discripton of our products in our web pages.</p>
 </main>
 
